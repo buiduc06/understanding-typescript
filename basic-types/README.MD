@@ -1,8 +1,18 @@
-## install & start
+## Install & start
 
+```
 npm install
 npm start
+```
 
-## build ts
+## Build code
 
-tcs basic-types/app.ts
+```
+tsc app.ts
+```
+
+### build with watch mode
+
+```
+tsc app.ts -w
+```
