@@ -4,9 +4,7 @@
   "description": "Understanding TypeScript Course Setup",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server",
-    "prepare": "husky install"
+    "start": "lite-server"
   },
   "keywords": [
     "typescript",
@@ -15,7 +13,6 @@
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1",
-    "husky": "^8.0.0"
+    "lite-server": "^2.6.1"
   }
 }
