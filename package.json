@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "prepare": "husky install"
   },
   "keywords": [
     "typescript",
@@ -14,6 +15,7 @@
   "author": "Maximilian Schwarzmüller",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "husky": "^8.0.0"
   }
 }
