@@ -1,3 +1,4 @@
 {
-  "conventionalCommits.scopes": ["tool"]
+  "conventionalCommits.scopes": ["tool"],
+  "js/ts.implicitProjectConfig.experimentalDecorators": true
 }
